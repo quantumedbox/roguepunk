@@ -1,0 +1,12 @@
+[package]
+name = "roguepunk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bracket-lib = { git = "https://github.com/amethyst/bracket-lib.git", default-features = false, features = ["crossterm"] }
+specs = "0.16.1"
+fixed = "1.15.0"
+cordic = "0.1.5"
+vecmath = "1.0.0"
+# bounded-integer = { version = "0.5.2", features = ["macro"]}

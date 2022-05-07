@@ -1,0 +1,28 @@
+dimensions:
+  columns: 80
+  rows: 50
+
+decorations: none
+
+decorations: roguepunk
+dynamic_title: true
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Never
+  thickness: 0.0
+
+scrolling:
+  history: 0
+
+font:
+  size: 12
+  builtin_box_drawing: true
+  normal:
+    family: inconsolata
+    style: Regular
+
+  bold:
+    family: inconsolata
+    style: Bold
